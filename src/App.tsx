@@ -19,8 +19,11 @@ export default function App() {
       {/* Header */}
       <header className="bg-white border-b border-gray-200 h-[70px]">
         <div className="max-w-[980px] lg:max-w-[1160px] mx-auto px-4 h-full flex justify-between items-center">
-          <div className="flex items-center">
-            <span className="text-2xl font-bold text-[#00376E]">Dienst Domeinbescherming</span>
+          <div className="flex items-center gap-3">
+            <div className="w-[42px] h-[42px] bg-[#00376E] flex items-center justify-center rounded-sm shrink-0">
+              <span className="text-white font-bold text-2xl">D</span>
+            </div>
+            <span className="text-2xl font-bold text-[#00376E]">DDNB</span>
           </div>
 
           {/* Search (Inloggen removed) */}
