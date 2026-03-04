@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-uwv-blue: #00376E;
+  --color-uwv-light: #E6F2FD;
+  --color-uwv-link: #007BC7;
+  --color-uwv-text: #333333;
+  --font-sans: "Inter", "RO Sans", "Arial", sans-serif;
+}
